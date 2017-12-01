@@ -1,0 +1,132 @@
+html {
+    height: 125%;
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", "Calibri";
+    background-image: url('./images/running3.jpg');
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    text-shadow: 0 1px black;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+a.search {
+  color: black;
+}
+
+#search {
+    text-align: center;
+    vertical-align: middle;
+}
+#mainHeading {
+    text-shadow: 2px 2px 2px grey;
+}
+
+input[type='text'] {
+    width: 400px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.result {
+    width: 100%;
+}
+
+
+#map, #info {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+}
+
+#map {
+    width: 52%;
+    margin: 1%;
+    text-align: center;
+}
+
+#info {
+    width: 33%;
+    margin: 1em;
+}
+
+.error {
+  color: red;
+}
+
+input[type=submit] {
+    padding: 30px;
+    font-size: 25px;
+}
+
+input[type=text] {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  font-size: 20px;
+  padding: 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+
+input[type=text]:focus {
+  box-shadow: 0 0 5px rgba(0, 76, 153, 1);
+  padding: 8px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(0, 76, 153, 1);
+}
+
+#weather, #clothing {
+    padding: 10px;
+    border: solid 2px #DDDDDD;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+#clothing {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#clothing h3, #weather h3, .clothing-item {
+  text-align: center;
+}
+
+#map-canvas {
+    position: relative;
+    text-align: bottom;
+    height: 600px;
+    width: 100%;
+}
+
+iframe {
+    margin-right: 3em;
+    height: 550px;
+    width: 100%;
+}
+
+.angular-google-map-container {
+    position: absolute;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    top: 0; 
+    /*bottom: 0;
+    right: 0;*/
+    left: 0;
+}

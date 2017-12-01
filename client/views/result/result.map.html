@@ -1,0 +1,12 @@
+<div id='map-canvas'>
+
+  <form id='form' name='userForm' novalidate ng-submit='reroute()'>
+    <input type='submit' value='reroute' />
+  </form>
+
+  <div ng-bind-html="directionsHTML() | toTrusted"></div>
+
+</div>
+
+
+

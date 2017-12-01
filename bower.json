@@ -1,0 +1,16 @@
+{
+  "name": "run-planner",
+  "version": "(0.0.0)",
+  "authors": [
+    "Ya Fang" 
+  ],
+  "description": "An app that tells you what to wear and what route to take when you run",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.4.14",
+    "angular-ui-router": "~0.2.15",
+    "angular-sanitize": "~1.4.0",
+    "angular-mocks": "~1.4.0"
+  }
+}

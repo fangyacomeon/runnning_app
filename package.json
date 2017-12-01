@@ -1,0 +1,45 @@
+{
+  "name": "Run-Planner",
+  "version": "0.0.1",
+  "description": "An app that tells you what to wear and what route to take when you run",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "bash ./post_install.sh" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClairvoyantChameleon/Run-Planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClairvoyantChameleon/Run-Planner/issues"
+  },
+  "homepage": "https://github.com/ClairvoyantChameleon/Run-Planner",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "chai": "^3.0.0",
+    "express": "~4.12.4",
+    "foundation": "^4.2.1-1",
+    "mocha": "^2.2.5",
+    "mongoose": "~4.0.4",
+    "request": "~2.56.0",
+    "bower": "~1.8.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "karma-mocha": "~0.1.10",
+    "karma-chrome-launcher": "~0.1.12",
+    "karma-firefox-launcher": "~0.1.6",
+    "chai": "~3.0.0",
+    "karma-chai": "~0.1.0",
+    "should": "^6.0.3",
+    "supertest": "^1.0.1"
+  },
+  "engines": {
+    "node": "9.2.0"
+  }
+
+}
